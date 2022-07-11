@@ -1,0 +1,6 @@
+name: Philosophy Theme
+type: theme
+description: Philosophy Theme.
+version: VERSION
+base theme: stable
+core_version_requirement: ^9
