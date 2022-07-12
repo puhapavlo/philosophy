@@ -1,0 +1,22 @@
+uuid: e88ccff8-9572-4672-9886-8acdfd140fff
+langcode: en
+status: true
+dependencies:
+  theme:
+    - philosophy_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: philosophy_theme_secondary_local_tasks
+theme: philosophy_theme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

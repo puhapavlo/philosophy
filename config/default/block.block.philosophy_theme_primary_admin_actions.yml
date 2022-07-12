@@ -1,0 +1,20 @@
+uuid: 5732ad96-9c4f-408e-9d30-92157c17b41b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - philosophy_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: philosophy_theme_primary_admin_actions
+theme: philosophy_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

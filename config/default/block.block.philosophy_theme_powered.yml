@@ -1,0 +1,22 @@
+uuid: bb74db5b-3917-42e6-a1ec-6d14e6f9de66
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - philosophy_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: philosophy_theme_powered
+theme: philosophy_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
