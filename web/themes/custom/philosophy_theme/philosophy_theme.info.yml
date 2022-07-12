@@ -4,3 +4,15 @@ description: Philosophy Theme.
 version: VERSION
 base theme: stable
 core_version_requirement: ^9
+
+libraries:
+  - philosophy_theme/global-styling
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
