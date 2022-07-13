@@ -1,13 +1,11 @@
 uuid: efc22bbb-cc9d-492d-ab3f-4660b17c63d4
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
-    - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_image
-    - field.field.node.article.field_tags
+    - field.field.node.article.field_content
     - node.type.article
   module:
     - user
@@ -22,7 +20,6 @@ content:
     weight: 100
     region: content
 hidden:
-  body: true
   comment: true
-  field_image: true
-  field_tags: true
+  field_content: true
+  langcode: true

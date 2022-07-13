@@ -1,0 +1,27 @@
+uuid: dd3e756e-20c0-4c99-acf1-be2c49b69ac1
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content.field_text
+    - paragraphs.paragraphs_type.content
+  module:
+    - text
+id: paragraph.content.default
+targetEntityType: paragraph
+bundle: content
+mode: default
+content:
+  field_text:
+    type: text_textarea_with_summary
+    weight: 0
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

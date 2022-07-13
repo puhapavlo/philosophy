@@ -1,0 +1,25 @@
+uuid: 8841c151-33f6-471f-8c64-f6bd49fc0b65
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:56201d37-ca32-4f6f-8eae-09dd56e4a976'
+  module:
+    - block_content
+  theme:
+    - philosophy_theme
+id: subheader
+theme: philosophy_theme
+region: breadcrumb
+weight: -3
+provider: null
+plugin: 'block_content:56201d37-ca32-4f6f-8eae-09dd56e4a976'
+settings:
+  id: 'block_content:56201d37-ca32-4f6f-8eae-09dd56e4a976'
+  label: SubHeader
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

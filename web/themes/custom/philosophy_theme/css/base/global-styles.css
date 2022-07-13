@@ -1,0 +1,13 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: #161513;
+}
+
+.layout-container {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body {
+  background: #F5F5F5;
+}

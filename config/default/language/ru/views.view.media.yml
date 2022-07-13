@@ -1,0 +1,53 @@
+display:
+  default:
+    display_title: 'По умолчанию'
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: Действие
+        thumbnail__target_id:
+          separator: ', '
+        name:
+          separator: ', '
+        bundle:
+          label: Тип
+          separator: ', '
+        uid:
+          separator: ', '
+        status:
+          label: Статус
+          settings:
+            format_custom_false: 'Снято с публикации'
+            format_custom_true: Опубликовано
+          separator: ', '
+        changed:
+          separator: ', '
+        operations:
+          label: Операции
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Элементов на страницу'
+            items_per_page_options_all_label: '- Все -'
+            offset_label: Пропустить
+      exposed_form:
+        options:
+          submit_button: Фильтр
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'
+      filters:
+        bundle:
+          expose:
+            label: Тип
+        status:
+          group_info:
+            group_items:
+              1:
+                title: Опубликовано
+              2:
+                title: 'Снято с публикации'
+        langcode:
+          expose:
+            label: Язык

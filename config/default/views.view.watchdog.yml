@@ -1,5 +1,5 @@
 uuid: 59510bda-7d68-47b5-a436-237941580438
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
@@ -17,7 +17,7 @@ base_field: wid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Базово
     display_plugin: default
     position: 0
     display_options:
@@ -29,7 +29,7 @@ display:
           field: nothing
           relationship: none
           group_type: group
-          admin_label: Icon
+          admin_label: Іконка
           plugin_id: custom
           label: ''
           exclude: false
@@ -332,7 +332,7 @@ display:
           entity_type: user
           entity_field: name
           plugin_id: field
-          label: User
+          label: Користувач
           exclude: false
           alter:
             alter_text: false

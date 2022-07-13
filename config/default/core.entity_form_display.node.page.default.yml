@@ -1,5 +1,5 @@
 uuid: 02863689-6d3f-4f14-8429-faf83e43da46
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -30,6 +30,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   path:
     type: path

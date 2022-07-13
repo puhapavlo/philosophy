@@ -1,0 +1,25 @@
+uuid: 8c491beb-656d-418b-8da4-d2d7194f4b96
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:40e2b5ba-9322-4532-b692-d671308469e2'
+  module:
+    - block_content
+  theme:
+    - philosophy_theme
+id: loginlink
+theme: philosophy_theme
+region: header
+weight: -2
+provider: null
+plugin: 'block_content:40e2b5ba-9322-4532-b692-d671308469e2'
+settings:
+  id: 'block_content:40e2b5ba-9322-4532-b692-d671308469e2'
+  label: 'Login Link'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

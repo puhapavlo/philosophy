@@ -1,5 +1,5 @@
 uuid: ed38ddb7-f8c6-48f7-8299-d21cdd6e827b
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
@@ -18,7 +18,7 @@ base_field: cid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Базово
     display_plugin: default
     position: 0
     display_options:

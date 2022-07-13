@@ -1,5 +1,5 @@
 uuid: 3191ce8e-06fd-45ae-bdb0-0c0a8250b267
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
@@ -46,7 +46,7 @@ tips:
   views-ui-fields:
     id: views-ui-fields
     plugin: text
-    label: Fields
+    label: Поля
     weight: 5
     selector: .views-ui-display-tab-bucket.field
     body: 'If this view uses fields, they are listed here. You can click on a field to configure it.'
@@ -81,7 +81,7 @@ tips:
   views-ui-preview:
     id: views-ui-preview
     plugin: text
-    label: Preview
+    label: 'Попередній перегляд'
     weight: 10
     position: right
     selector: '#preview-submit'

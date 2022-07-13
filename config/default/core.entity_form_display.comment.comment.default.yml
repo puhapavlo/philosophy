@@ -1,5 +1,5 @@
 uuid: cab4ac2e-66d3-47fc-9cf3-5e21f5c2ac46
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -24,6 +24,13 @@ content:
     settings:
       rows: 5
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   subject:
     type: string_textfield

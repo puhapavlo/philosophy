@@ -1,5 +1,5 @@
 uuid: 20f7407f-d6a6-489c-8ac9-fa8f2be59816
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -20,7 +20,7 @@ base_field: nid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Базово
     display_plugin: default
     position: 0
     display_options:
@@ -50,7 +50,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Застосувати
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'

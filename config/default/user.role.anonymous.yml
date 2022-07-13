@@ -1,5 +1,5 @@
 uuid: db273cdd-6722-42e2-93b5-a1ace8c629ec
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -8,6 +8,7 @@ dependencies:
     - comment
     - contact
     - filter
+    - media
     - search
     - system
 _core:
@@ -22,3 +23,4 @@ permissions:
   - 'access site-wide contact form'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view media'

@@ -1,0 +1,79 @@
+@import "../base/variables";
+
+.header {
+  height: 100px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  &__menu {
+    &-items {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      li {
+        &:not(:last-child) {
+          padding-right: 30px;
+        }
+        a {
+          text-decoration: none;
+          font-size: 16px;
+          &.is-active {
+            border-bottom: 2px solid $black;
+          }
+          &:hover {
+            text-decoration: none;
+            transition: ease-in-out .4s;
+            border-bottom: 2px solid $black;
+          }
+        }
+      }
+    }
+  }
+
+  &__login {
+    padding: 10px 25px;
+    border: 1px solid $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+
+  a {
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
+  }
+
+  &__slogan {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 80px;
+  }
+
+  &__logo {
+    max-width: 500px;
+  }
+}

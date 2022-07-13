@@ -1,5 +1,5 @@
 uuid: f9218db5-3247-413f-b491-e89ee9b31ccc
-langcode: en
+langcode: uk
 status: true
 dependencies:
   module:
@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: CgXkKY33fd-yaHz89du2hSw6MJOoIeNUJ-VHE5BiSdQ
 id: comment
-label: Comments
+label: Коментарі
 module: comment
 description: 'Find and manage comments.'
 tag: default
@@ -17,11 +17,11 @@ base_field: cid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Базово
     display_plugin: default
     position: 0
     display_options:
-      title: Comments
+      title: Коментарі
       fields:
         comment_bulk_form:
           id: comment_bulk_form
@@ -73,7 +73,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Дія
           include_exclude: include
           selected_actions:
             - comment_delete_action
@@ -88,7 +88,7 @@ display:
           entity_type: comment
           entity_field: subject
           plugin_id: field
-          label: Subject
+          label: Тема
           exclude: false
           alter:
             alter_text: false
@@ -645,7 +645,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Subject
+            label: Тема
             description: ''
             use_operator: false
             operator: subject_op
@@ -878,7 +878,7 @@ display:
       path: admin/content/comment
       menu:
         type: tab
-        title: Comments
+        title: Коментарі
         description: 'Comments published'
         weight: 0
         menu_name: admin
@@ -951,7 +951,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Дія
           include_exclude: include
           selected_actions:
             - comment_delete_action
@@ -966,7 +966,7 @@ display:
           entity_type: comment
           entity_field: subject
           plugin_id: field
-          label: Subject
+          label: Тема
           exclude: false
           alter:
             alter_text: false
@@ -1455,7 +1455,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Subject
+            label: Тема
             description: ''
             use_operator: false
             operator: subject_op

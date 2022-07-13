@@ -1,5 +1,5 @@
-uuid: 5e92986a-5e47-408e-8897-41295eb12e12
-langcode: en
+uuid: 05ed6897-ed24-49ad-bcc5-a3d47a8c89b9
+langcode: uk
 status: true
 dependencies:
   module:
@@ -11,7 +11,7 @@ _core:
 id: philosophy_theme_messages
 theme: philosophy_theme
 region: highlighted
-weight: -5
+weight: -4
 provider: null
 plugin: system_messages_block
 settings:

@@ -1,5 +1,5 @@
-uuid: dcd3bafb-890a-4a69-badc-46b863c7fc27
-langcode: en
+uuid: 63d0078f-38d0-4803-999c-0b66508552c5
+langcode: uk
 status: true
 dependencies:
   config:
@@ -12,8 +12,8 @@ _core:
   default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
 id: philosophy_theme_main_menu
 theme: philosophy_theme
-region: primary_menu
-weight: 0
+region: header
+weight: -3
 provider: null
 plugin: 'system_menu_block:main'
 settings:

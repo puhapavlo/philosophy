@@ -1,10 +1,10 @@
 uuid: 9375cedb-1c9e-4e63-bcdf-ffda1a0f2faa
-langcode: en
+langcode: uk
 status: true
 dependencies: {  }
 _core:
   default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
-name: Tags
+name: Теґи
 vid: tags
 description: 'Use tags to group articles on similar topics into categories.'
 weight: 0

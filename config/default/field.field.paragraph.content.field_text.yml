@@ -1,0 +1,23 @@
+uuid: 94a1a4ab-9d98-4610-939c-90e8a509b364
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.content
+  module:
+    - text
+id: paragraph.content.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: content
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

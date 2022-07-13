@@ -1,0 +1,10 @@
+uuid: d74b2177-cb23-4617-bcf0-db90498653ff
+langcode: uk
+status: true
+dependencies: {  }
+id: media
+label: Media
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

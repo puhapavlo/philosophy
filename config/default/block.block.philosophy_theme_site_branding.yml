@@ -1,5 +1,5 @@
-uuid: 3c662f33-1e3a-48b1-9a3a-6284e1d2d6cb
-langcode: en
+uuid: ca4e08fa-1cfa-47fe-a238-4780bb40f5d3
+langcode: uk
 status: true
 dependencies:
   module:
@@ -11,7 +11,7 @@ _core:
 id: philosophy_theme_site_branding
 theme: philosophy_theme
 region: header
-weight: 0
+weight: -4
 provider: null
 plugin: system_branding_block
 settings:
@@ -19,7 +19,7 @@ settings:
   label: 'Site branding'
   label_display: '0'
   provider: system
-  use_site_logo: true
+  use_site_logo: false
   use_site_name: true
   use_site_slogan: false
 visibility: {  }

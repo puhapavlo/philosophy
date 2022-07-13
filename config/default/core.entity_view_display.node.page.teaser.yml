@@ -1,5 +1,5 @@
 uuid: 263aba58-5a4a-42e8-93c6-245f0eb2640a
-langcode: en
+langcode: uk
 status: true
 dependencies:
   config:
@@ -27,4 +27,5 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  langcode: true

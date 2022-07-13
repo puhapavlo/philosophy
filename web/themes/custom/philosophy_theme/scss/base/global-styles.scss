@@ -1,0 +1,15 @@
+@import "./variables";
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: $black;
+}
+
+.layout-container {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body {
+  background: $gray;
+}
