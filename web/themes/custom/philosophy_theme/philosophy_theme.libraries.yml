@@ -10,3 +10,5 @@ global-styling:
       'css/base/global-styles.css': {}
     layout:
       'css/layout/header.css': {}
+    component:
+      'css/components/breadcrumb.css': {}

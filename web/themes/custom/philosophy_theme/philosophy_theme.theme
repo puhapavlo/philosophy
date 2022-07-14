@@ -8,4 +8,3 @@ function philosophy_theme_preprocess_block__subheader(array &$variables) {
   $variables['site_slogan'] = $site_config->get('slogan');
   $variables['logopath'] = \Drupal::service('file_url_generator')->generateString(theme_get_setting('logo.url'));
 }
-
