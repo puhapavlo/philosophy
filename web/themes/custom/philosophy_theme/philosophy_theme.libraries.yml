@@ -12,3 +12,6 @@ global-styling:
       'css/layout/header.css': {}
     component:
       'css/components/breadcrumb.css': {}
+      'css/components/pager.css': {}
+    theme:
+      'css/views/view.css': {}

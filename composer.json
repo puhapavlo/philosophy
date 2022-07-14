@@ -25,6 +25,7 @@
         "drupal/paragraphs": "^1.14",
         "drupal/paragraphs_summary": "^1.0",
         "drupal/pathauto": "^1.10",
+        "drupal/smart_trim": "^1.3",
         "drush/drush": "^10.2"
     },
     "conflict": {

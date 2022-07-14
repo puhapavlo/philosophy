@@ -1,0 +1,22 @@
+.view-title a {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.view-btn {
+  padding: 10px 25px;
+  border: 1px solid #161513;
+  display: inline-block;
+  margin-top: 20px;
+}
+.view-btn a {
+  text-decoration: none;
+}
+.view-btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
