@@ -5,9 +5,11 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.comment
+    - field.field.node.article.field_category
     - field.field.node.article.field_content
     - node.type.article
   module:
+    - paragraphs_summary
     - user
 _core:
   default_config_hash: 83jX5ChAGdMzOxiDA_B1NjgebVMuD8lNVDgClg_QVP8
@@ -16,10 +18,24 @@ targetEntityType: node
 bundle: article
 mode: teaser
 content:
+  field_content:
+    type: paragraphs_summary
+    label: hidden
+    settings:
+      allowed_bundles:
+        content: content
+        media: 0
+      view_mode: default
+      limit: '1'
+    third_party_settings: {  }
+    weight: 0
+    region: content
   links:
-    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
   comment: true
-  field_content: true
+  field_category: true
   langcode: true

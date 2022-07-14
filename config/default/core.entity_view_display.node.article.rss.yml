@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.rss
     - field.field.node.article.comment
+    - field.field.node.article.field_category
     - field.field.node.article.field_content
     - node.type.article
   module:
@@ -21,5 +22,6 @@ content:
     region: content
 hidden:
   comment: true
+  field_category: true
   field_content: true
   langcode: true
