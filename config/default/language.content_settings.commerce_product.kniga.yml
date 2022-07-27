@@ -1,0 +1,11 @@
+uuid: 9e857f9d-e4f1-4988-863f-260853a41431
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.kniga
+id: commerce_product.kniga
+target_entity_type_id: commerce_product
+target_bundle: kniga
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,11 @@
+uuid: bc1bab9a-e393-405e-9f02-167bc92b794d
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vidavnictvo
+id: taxonomy_term.vidavnictvo
+target_entity_type_id: taxonomy_term
+target_bundle: vidavnictvo
+default_langcode: site_default
+language_alterable: false

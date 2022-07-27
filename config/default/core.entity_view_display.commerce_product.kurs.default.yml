@@ -1,0 +1,52 @@
+uuid: 480619b3-8d71-4453-9a6f-facae7cad8fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.kurs
+    - field.field.commerce_product.kurs.body
+    - field.field.commerce_product.kurs.field_kartinki
+  module:
+    - commerce_product
+    - text
+id: commerce_product.kurs.default
+targetEntityType: commerce_product
+bundle: kurs
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_kartinki:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  langcode: true
+  stores: true
+  uid: true

@@ -17,7 +17,7 @@ base_field: fid
 display:
   default:
     id: default
-    display_title: Базово
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
@@ -66,7 +66,7 @@ display:
           entity_type: file
           entity_field: filename
           plugin_id: field
-          label: 'Назва (ім''я)'
+          label: Name
           exclude: false
           alter:
             alter_text: false
@@ -233,7 +233,7 @@ display:
           entity_type: file
           entity_field: status
           plugin_id: field
-          label: Стан
+          label: Status
           exclude: false
           alter:
             alter_text: false
@@ -594,7 +594,7 @@ display:
           exposed: true
           expose:
             operator_id: status_op
-            label: Стан
+            label: Status
             description: ''
             use_operator: false
             operator: status_op

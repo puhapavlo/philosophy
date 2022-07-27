@@ -1,0 +1,10 @@
+uuid: a01e4c57-dc0c-4cf0-a44e-470fda9af200
+langcode: en
+status: true
+dependencies: {  }
+id: kurs
+label: Курс
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

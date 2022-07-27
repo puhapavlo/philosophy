@@ -16,7 +16,7 @@ base_field: uid
 display:
   default:
     id: default
-    display_title: Базово
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
@@ -134,7 +134,7 @@ display:
           entity_type: user
           entity_field: status
           plugin_id: field
-          label: Стан
+          label: Status
           exclude: false
           alter:
             alter_text: false
@@ -600,7 +600,7 @@ display:
               administrator: '0'
           is_grouped: true
           group_info:
-            label: Стан
+            label: Status
             description: ''
             identifier: status
             optional: true

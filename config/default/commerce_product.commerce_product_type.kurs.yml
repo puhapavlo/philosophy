@@ -1,0 +1,14 @@
+uuid: b637a01e-f431-4df6-b000-14a02c1f1c20
+langcode: en
+status: true
+dependencies: {  }
+id: kurs
+label: Курс
+traits: {  }
+locked: false
+description: ''
+variationType: kurs
+variationTypes:
+  - kurs
+multipleVariations: true
+injectVariationFields: true

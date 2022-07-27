@@ -3,11 +3,69 @@ langcode: uk
 status: true
 dependencies:
   config:
-    - field.field.user.user.user_picture
-    - image.style.thumbnail
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_pictu
   module:
-    - image
+    - layout_builder
+    - layout_discovery
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          a780956d-88b2-4d6a-8aae-cf3059e535ec:
+            uuid: a780956d-88b2-4d6a-8aae-cf3059e535ec
+            region: content
+            configuration:
+              id: 'extra_field_block:user:user:member_for'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 2
+            additional: {  }
+          af7aa38e-9ff1-4946-b98d-0d43d44e41dd:
+            uuid: af7aa38e-9ff1-4946-b98d-0d43d44e41dd
+            region: content
+            configuration:
+              id: 'field_block:user:user:name'
+              label: Name
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: '@user.current_user_context:current_user'
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          fbfb539d-224d-4484-b44c-429b4f314a58:
+            uuid: fbfb539d-224d-4484-b44c-429b4f314a58
+            region: content
+            configuration:
+              id: 'field_block:user:user:field_pictu'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
 id: user.user.default
@@ -15,19 +73,21 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_pictu:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
   member_for:
+    settings: {  }
+    third_party_settings: {  }
     weight: 5
     region: content
-  user_picture:
-    type: image
-    label: hidden
-    settings:
-      image_link: content
-      image_style: thumbnail
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 0
-    region: content
 hidden:
+  commerce_remote_id: true
+  customer_profiles: true
   langcode: true

@@ -1,0 +1,8 @@
+uuid: 02cae9d8-b951-4b67-8f39-d44f75b54700
+langcode: uk
+status: true
+dependencies: {  }
+name: Видавництво
+vid: vidavnictvo
+description: ''
+weight: 0

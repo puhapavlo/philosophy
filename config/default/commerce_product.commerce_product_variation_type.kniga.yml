@@ -1,0 +1,10 @@
+uuid: c96a8765-55a4-4a41-ab84-ddede49e2b73
+langcode: en
+status: true
+dependencies: {  }
+id: kniga
+label: Книга
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

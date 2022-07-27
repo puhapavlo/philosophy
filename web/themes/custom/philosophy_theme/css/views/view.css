@@ -1,3 +1,6 @@
+.view-title {
+  padding: 15px 0;
+}
 .view-title a {
   text-decoration: none;
   font-size: 40px;
@@ -19,4 +22,5 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-bottom: 30px;
 }

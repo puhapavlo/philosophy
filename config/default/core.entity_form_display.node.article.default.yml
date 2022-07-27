@@ -3,6 +3,7 @@ langcode: uk
 status: true
 dependencies:
   config:
+    - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_category
     - field.field.node.article.field_content
@@ -11,6 +12,7 @@ dependencies:
     - comment
     - paragraphs
     - path
+    - text
 _core:
   default_config_hash: Pzq9mzrsfoPf775qgEU_SUbHSro9pv1ga-Euh1Ykd_k
 id: node.article.default
@@ -18,6 +20,16 @@ targetEntityType: node
 bundle: article
 mode: default
 content:
+  body:
+    type: text_textarea_with_summary
+    weight: 123
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
   comment:
     type: comment_default
     weight: 20

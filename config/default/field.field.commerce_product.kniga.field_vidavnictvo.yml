@@ -1,0 +1,29 @@
+uuid: 75122b78-6625-4ef7-be51-d3ef0c20430f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.kniga
+    - field.storage.commerce_product.field_vidavnictvo
+    - taxonomy.vocabulary.vidavnictvo
+id: commerce_product.kniga.field_vidavnictvo
+field_name: field_vidavnictvo
+entity_type: commerce_product
+bundle: kniga
+label: Видавництво
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vidavnictvo: vidavnictvo
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

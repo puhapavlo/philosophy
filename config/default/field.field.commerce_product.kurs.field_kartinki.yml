@@ -1,0 +1,29 @@
+uuid: 5e60ff83-2b18-4493-add0-009d9c7a69ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.kurs
+    - field.storage.commerce_product.field_kartinki
+    - media.type.image
+id: commerce_product.kurs.field_kartinki
+field_name: field_kartinki
+entity_type: commerce_product
+bundle: kurs
+label: Картинки
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,35 @@
+uuid: 9abdb16a-94e2-42db-8fd4-e2435705904e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_pictu
+    - media.type.image
+  content:
+    - 'media:image:f2f4cd93-661f-4a3d-ad14-f24d9d08e1d0'
+  module:
+    - user
+id: user.user.field_pictu
+field_name: field_pictu
+entity_type: user
+bundle: user
+label: Picture
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: f2f4cd93-661f-4a3d-ad14-f24d9d08e1d0
+    weight: 0
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

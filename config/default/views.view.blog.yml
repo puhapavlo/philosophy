@@ -3,11 +3,11 @@ langcode: uk
 status: true
 dependencies:
   config:
-    - field.storage.node.field_content
+    - field.storage.node.body
     - node.type.article
   module:
     - node
-    - paragraphs_summary
+    - smart_trim
     - user
 id: blog
 label: Блог
@@ -90,10 +90,10 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_content:
-          id: field_content
-          table: node__field_content
-          field: field_content
+        body:
+          id: body
+          table: node__body
+          field: body
           relationship: none
           group_type: group
           admin_label: ''
@@ -127,8 +127,8 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: p
-          element_class: view-summary
+          element_type: ''
+          element_class: ''
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
@@ -139,15 +139,22 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: target_id
-          type: paragraphs_summary
+          click_sort_column: value
+          type: smart_trim
           settings:
-            allowed_bundles:
-              content: content
-              media: 0
-            view_mode: preview
-            limit: '1'
-          group_column: ''
+            trim_length: 180
+            trim_type: chars
+            trim_suffix: ''
+            wrap_output: false
+            wrap_class: trimmed
+            more_link: false
+            more_class: more-link
+            more_text: More
+            summary_handler: full
+            trim_options:
+              text: false
+              trim_zero: false
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -355,7 +362,7 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_content'
+        - 'config:field.storage.node.body'
   page_1:
     id: page_1
     display_title: Page
@@ -373,4 +380,4 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_content'
+        - 'config:field.storage.node.body'

@@ -1,0 +1,23 @@
+uuid: 15244510-ede9-4fa3-82f3-59e3ed1d99b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.kniga
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.kniga.body
+field_name: body
+entity_type: commerce_product
+bundle: kniga
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,20 @@
+uuid: 36d81d03-0678-4dbe-9b7d-1a2581b8bf28
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - taxonomy
+id: commerce_product.field_mova_vidannya
+field_name: field_mova_vidannya
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

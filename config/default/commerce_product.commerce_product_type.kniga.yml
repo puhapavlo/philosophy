@@ -1,0 +1,14 @@
+uuid: ca4e61bb-c0e9-47a7-8763-1f90c0d665a6
+langcode: en
+status: true
+dependencies: {  }
+id: kniga
+label: Книга
+traits: {  }
+locked: false
+description: ''
+variationType: kniga
+variationTypes:
+  - kniga
+multipleVariations: true
+injectVariationFields: true

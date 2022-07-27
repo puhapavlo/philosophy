@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_category
     - field.field.node.article.field_content
@@ -36,6 +37,7 @@ content:
     weight: 1
     region: content
 hidden:
+  body: true
   comment: true
   field_category: true
   langcode: true

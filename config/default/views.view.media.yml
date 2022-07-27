@@ -20,7 +20,7 @@ base_field: mid
 display:
   default:
     id: default
-    display_title: Базово
+    display_title: Default
     display_plugin: default
     position: 0
     display_options:
@@ -334,7 +334,7 @@ display:
           entity_type: media
           entity_field: status
           plugin_id: field
-          label: Стан
+          label: Status
           exclude: false
           alter:
             alter_text: false

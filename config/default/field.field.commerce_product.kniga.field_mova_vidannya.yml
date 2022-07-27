@@ -1,0 +1,29 @@
+uuid: d6376ab4-76ef-4de1-8ca0-11df32dc157d
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.kniga
+    - field.storage.commerce_product.field_mova_vidannya
+    - taxonomy.vocabulary.mova
+id: commerce_product.kniga.field_mova_vidannya
+field_name: field_mova_vidannya
+entity_type: commerce_product
+bundle: kniga
+label: 'Мова видання'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mova: mova
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

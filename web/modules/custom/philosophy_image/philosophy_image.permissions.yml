@@ -1,0 +1,4 @@
+administer philosophy_image configuration:
+  title: 'Administer philosophy_image configuration'
+  description: 'Optional description.'
+  restrict access: true

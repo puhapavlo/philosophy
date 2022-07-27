@@ -1,0 +1,11 @@
+uuid: 45078f00-a993-4cbc-8cff-b579f376b2db
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.mova
+id: taxonomy_term.mova
+target_entity_type_id: taxonomy_term
+target_bundle: mova
+default_langcode: site_default
+language_alterable: false
